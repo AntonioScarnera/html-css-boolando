@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classe Immagini di sfondo */
+
+.square-1{
+    background-image: url(./img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.square-1b{
+    background-image: url(./img/1b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.square-2{
+    background-image: url(./img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-2b{
+    background-image: url(./img/2b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.square-3{
+    background-image: url(./img/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-3b{
+    background-image: url(./img/3b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-4{
+    background-image: url(./img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-4b{
+    background-image: url(./img/4b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.square-5{
+    background-image: url(./img/5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-5b{
+    background-image: url(./img/5b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.square-6{
+    background-image: url(./img/6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.square-6b{
+    background-image: url(./img/6b.webp);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+
+
+
+
+/* Classi Body */
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: white;
+}
+
+.row{
+    font-size: 0;
+    text-align: center;
+}
+
+.img-box{
+    display: inline-block;
+    width: calc(80% / 3 - 20px);
+    height: 416px;
+    background-color: pink;
+    margin: 5px;
+}
+
+
+
+
+
+.heart-box{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 15px 233px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    position: absolute;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    opacity: 0;
+    position: relative;
+}
+
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay::before{
+    content: "Ciao";
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: crimson;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: arial;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
